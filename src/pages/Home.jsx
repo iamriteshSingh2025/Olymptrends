@@ -1,10 +1,11 @@
 import React from "react";
 import Hero from "./Hero";
 import Features from "./Features";
-import Tenth from "../pages/Tenth";
+import Tenth from  "../pages/Tenth";
 import Text from "../pages/Text";
 import Mobile from  "../pages/Mobile";
 import Text2 from "../pages/Text2";
+import Demo from "../pages/Demo";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <Text/>
       <Mobile/>
       <Text2/>
+      <Demo/>
     </div>
   );
 }

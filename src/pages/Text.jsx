@@ -1,6 +1,6 @@
 import React from "react";
 
-function Hero() {
+function Text() {
   return (
     <section className="relative w-full min-h-[90vh] bg-black flex flex-col items-center justify-center text-center px-6 -pt-40">
       {/* Overlay Gradient (optional for effect) */}
@@ -50,4 +50,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default Text;
