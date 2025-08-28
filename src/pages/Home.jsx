@@ -4,7 +4,7 @@ import Features from "./Features";
 import Tenth from "../pages/Tenth";
 import Text from "../pages/Text";
 import Mobile from  "../pages/Mobile";
-import Text2 from "..pages/Text2";
+import Text2 from "../pages/Text2";
 
 function Home() {
   return (
