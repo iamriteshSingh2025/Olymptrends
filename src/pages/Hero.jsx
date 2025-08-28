@@ -4,17 +4,17 @@ import th from "../assets/th.png";
 function Hero() {
   return (
     <section className="relative w-full h-[80vh] flex items-center justify-center text-center text-white pt-10">
-      {/* Background image with object-cover */}
+     
       <img
         src={th}
         alt="background"
         className="absolute inset-0 w-full h-full object-cover"
       />
 
-      {/* Dark overlay */}
+     
       <div className="absolute inset-0 bg-black bg-opacity-70"></div>
 
-      {/* Content */}
+     
       <div className="relative z-10 max-w-3xl px-6">
         <h1 className="text-4xl md:text-6xl font-bold leading-tight">
           Build confidence <br /> with every single trade

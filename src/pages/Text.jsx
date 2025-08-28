@@ -3,10 +3,10 @@ import React from "react";
 function Text() {
   return (
     <section className="relative w-full min-h-[90vh] bg-black flex flex-col items-center justify-center text-center px-6 -pt-40">
-      {/* Overlay Gradient (optional for effect) */}
+      
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/90 -pt-40"></div>
 
-      {/* Content */}
+      
       <div className="relative z-10 text-white max-w-4xl -pt-40 pb-40">
         <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
           10 years of empowering traders, <br /> and it's just a beginning.
@@ -16,7 +16,7 @@ function Text() {
           <br /> Feel care that counts.
         </p>
 
-        {/* Buttons */}
+        
         <div className="flex gap-6 justify-center">
           <a
             href="#"
@@ -33,14 +33,15 @@ function Text() {
         </div>
       </div>
 
-      {/* Next Section Heading */}
+     
+     
       <div className="relative z-10 mt-20">
         <h2 className="text-white text-4xl md:text-6xl font-bold -pt-5">
           Modern trading platform
         </h2>
       </div>
 
-      {/* Floating Chat Icon */}
+      
       <div className="fixed bottom-6 right-6">
         <button className="bg-green-500 w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:scale-105 transition">
           <span className="text-black text-2xl">💬</span>
