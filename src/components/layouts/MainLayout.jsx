@@ -6,6 +6,7 @@ function MainLayout({ children }) {
     <div className="bg-black min-h-screen">
       <Navbar />
       {children}
+     
     </div>
   );
 }
